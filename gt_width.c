@@ -6,8 +6,10 @@
  * @i: List of arguments to be printed.
  * @list: list of arguments.
  *
- * Return: width.
+ * with it's list of arguments
+ * Returns: width.
  */
+
 int get_width(const char *format, int *i, va_list list)
 {
 	int curr_i;
